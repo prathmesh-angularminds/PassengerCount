@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width" />
+    <head>
+        <title>Passenger Counter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="PassengerCard">
+            
+            <!-- Main Card-->
+            <div class="MainCard">
+                People Entered:
+                <div class="CardCount" id="cnt">0</div>
+                
+                <!-- Buttons -->
+                <button class="IncrementBtn" onclick="countIncrement()">Increment</button>
+                <button class="SaveBtn" onclick="savedBtnClicked()">Save</button>
+            
+                <!-- Previous Saved Values -->
+                <div class="PreviousCountContainer">
+                    Previous Text: 
+                    <div class="PreviousSaved"></div>
+                </div>  
+            
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
